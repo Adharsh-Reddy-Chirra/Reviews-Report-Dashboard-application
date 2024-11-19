@@ -1,0 +1,14 @@
+import pandas as pd
+
+# Define the path to the CSV file
+csv_file = r"C:\Users\adhar\Downloads\Final_Project_Phase_3(1)\Amazon_Appliances_Metadata.csv"
+
+# Read the CSV file into a pandas DataFrame
+df = pd.read_csv(csv_file)
+
+# Convert DataFrame to JSON format
+json_data = df.to_json(orient='records')
+
+# Write JSON data to a file
+with open('meta_Appliances.json', 'w') as f:
+    f.write(json_data)
