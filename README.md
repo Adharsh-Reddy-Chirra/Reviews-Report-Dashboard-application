@@ -1,26 +1,40 @@
-Amazon Reviews Report Dashboard
+# 📊 Amazon Reviews Report Dashboard  
 
-This project is a dashboard application built using React and Material UI for the front end. It stores and queries Amazon product reviews from two Amazon Reviews datasets using ElasticSearch.
-Overview
+An interactive **React + Material UI dashboard** for exploring and analyzing **Amazon Product Reviews**.  
+The application leverages **ElasticSearch** to store and query reviews, enabling **fast, flexible, and powerful search capabilities**.  
 
-    The project focuses on Amazon "Appliances" reviews from datasets provided by the Amazon Product Graph project.
-    Reviews are indexed in ElasticSearch for fast and flexible searching.
-    The dashboard includes 3 tabs to handle different types of queries:
-        Quantitative Search: Perform numerical analysis, such as filtering reviews by rating or review count.
-        Exact or Fuzzy Search: Find reviews or products with specific or approximate keywords.
-        Hybrid Search: Combine multiple search criteria for advanced queries.
+## 🔍 Overview  
+- Focused on **Amazon "Appliances" reviews** from datasets provided by the **Amazon Product Graph Project**.  
+- Reviews are indexed in **ElasticSearch** for high-performance querying.  
+- The dashboard provides **3 specialized tabs** for different query needs:  
+  1. **Quantitative Search** – Numerical filtering and analysis (ratings, review counts).  
+  2. **Exact or Fuzzy Search** – Keyword-based review/product search with support for approximate matching.  
+  3. **Hybrid Search** – Combines multiple criteria for advanced review exploration.  
 
-Features
+## ✨ Features  
 
-    React Material UI Dashboard:
-        Simple and user-friendly interface.
-        Built with React and styled using Material UI.
+### 🎨 React + Material UI Dashboard  
+- Clean, responsive, and user-friendly UI.  
+- Tabbed interface for switching between query modes.  
 
-    ElasticSearch for Data Storage:
-        All reviews are stored in ElasticSearch.
-        Optimized for running various queries efficiently.
+### ⚡ ElasticSearch Integration  
+- All reviews stored in **ElasticSearch** indices.  
+- Enables quick filtering, keyword matching, and hybrid searches.  
 
-    3-Tab Query Interface:
-        Tab 1: Quantitative search.
-        Tab 2: Exact or fuzzy search.
-        Tab 3: Hybrid search combining various criteria.
+### 📑 Query Tabs  
+1. **Quantitative Search**  
+   - Filter reviews by numerical attributes (e.g., rating ≥ 4, minimum review count).  
+   - Generate summary insights.  
+
+2. **Exact or Fuzzy Search**  
+   - Search reviews by **keywords**.  
+   - Supports **fuzzy search** (approximate matches for misspelled or similar terms).  
+
+3. **Hybrid Search**  
+   - Combine keyword, fuzzy, and numerical filters.  
+   - Ideal for advanced exploratory queries.  
+
+## 🛠 Tech Stack  
+- **Frontend:** React, Material UI  
+- **Backend / Search Engine:** ElasticSearch  
+- **Dataset:** Amazon Product Graph – *Appliances Reviews*  
