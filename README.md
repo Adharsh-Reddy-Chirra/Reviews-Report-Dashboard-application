@@ -24,15 +24,22 @@ The application leverages **ElasticSearch** to store and query reviews, enabling
 ### 📑 Query Tabs  
 1. **Quantitative Search**  
    - Filter reviews by numerical attributes (e.g., rating ≥ 4, minimum review count).  
-   - Generate summary insights.  
+   - Generate summary insights.
+  <img width="1799" height="771" alt="image" src="https://github.com/user-attachments/assets/eda54c27-7d81-4ea6-8adb-f23d2cef3957" />
+
+   - 
 
 2. **Exact or Fuzzy Search**  
    - Search reviews by **keywords**.  
-   - Supports **fuzzy search** (approximate matches for misspelled or similar terms).  
+   - Supports **fuzzy search** (approximate matches for misspelled or similar terms).
+   <img width="1802" height="824" alt="image" src="https://github.com/user-attachments/assets/b719c5a8-7501-4fd0-a7c4-5c65ed204237" />
+
 
 3. **Hybrid Search**  
    - Combine keyword, fuzzy, and numerical filters.  
-   - Ideal for advanced exploratory queries.  
+   - Ideal for advanced exploratory queries.
+     <img width="1797" height="762" alt="image" src="https://github.com/user-attachments/assets/71ac569d-f64e-4af9-9cc0-c324f0e2cd24" />
+
 
 ## 🛠 Tech Stack  
 - **Frontend:** React, Material UI  
